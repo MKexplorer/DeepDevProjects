@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Little Momo Shop">
+    <meta name="description" content="Online Little Momo Shop">
+
+    <title>The Little Momo Shop</title>
+
+    <link rel="icon" href="img/momo.png" type="image/x-icon">
+    <link rel="stylesheet" href="main1.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to The Little Momo Shop</h1>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/#about">About LMS</a>
+                </li>
+                <li>
+                    <a href="/#menu">Our Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Store Hours</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <figure>
+        <img src="img/momos.jpg" alt="Tray of Momos" title="Find your momos here!" width="480" height="301">
+        <figcaption>Little Momo Shop Momos</figcaption>
+    </figure>
+
+    <hr>
+
+    <h2>Our Contact Form</h2>
+
+    <form action="https://httpbin.org/get">
+        <fieldset>
+            <legend>Send Us A Message</legend>
+            <p>
+                <label for="cname">Name</label>
+                <input type="text" name="cname" id="cname" placeholder="Your Name" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="mail">Email</label>
+                <input type="text" name="mail" id="mail" placeholder="Your Email" autocomplete="on" required>
+            </p>
+          
+            
+            <label for="message">Your Message:</label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your msg here..."></textarea>
+            
+        </fieldset>
+
+        <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Send</button>
+        <button type="reset">Reset</button>
+        
+    </form>
+
+    <h2>Our Location</h2>
+
+    <address>
+        Karanga Bhakat Cheuni Gaon<br>
+        Jorhat, Assam<br>
+        785008
+        <br>
+        <br>
+        Phone: <a href="tel:3693636936">36936-36936</a>
+        <br>
+    </address>
+
+    <footer>
+        <p>
+            <a href="#">Back to Top</a>
+        </p>
+        
+        <hr>
+        
+        <p>
+            Copyright &copy; The Little Momo Shop
+        </p>
+    </footer>
+
+</body>
+</html>
